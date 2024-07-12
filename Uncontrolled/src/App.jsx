@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import Contraseya from "/components/Contraseya.jsx"
+import Counter from "/components/Counter.jsx"
 import './App.css'
 
 function App() {
   return (
     <div className='App'>
-      <h1>Aplicación de contraseña</h1>
-      <Contraseya />
+      <h1>Aplicación de contador</h1>
+      <Counter />
     </div>
   )
 }
